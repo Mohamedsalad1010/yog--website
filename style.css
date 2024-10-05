@@ -191,7 +191,9 @@ margin-bottom: 8rem;
 
  .box img{
     width: 100%;
+    height: 100%;
     border-radius: 25px;
+    object-fit: cover;
 }
 
 .info-boxs{
@@ -199,6 +201,7 @@ margin-bottom: 8rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
+    padding-bottom: 15px;
 }
 
 .box{
@@ -355,7 +358,7 @@ margin-bottom: 8rem;
         margin-top: 5rem;
         align-items: center;
         color: white;
-        gap: 60px;
+        gap: 40px;
     }
     
     .navication h1{
@@ -371,17 +374,17 @@ margin-bottom: 8rem;
         flex-direction: column;
         align-items: center;
         /* justify-content: center; */
-        gap: 30px;
+        gap: 10px;
     }
     .navication .menu-links a{
         color: white;
-        font-size: 30px;
+        font-size: 18px;
         
     }
     
     /* btns mobile menu */
     .menu-bottons{
-        margin-top: 200px;
+        /* margin-top: 160px; */
         display: flex;
        gap: 30px;
     }
